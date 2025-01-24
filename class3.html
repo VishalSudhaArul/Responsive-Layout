@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns:2fr 2fr 2fr 3fr;
+        grid-template-rows:50;
+        grid-template-areas:
+        "header header"
+        "sidebar containt"
+        " footer footer";
+        gap: 10px;
+        height:50vh;
+    }
+    .header{
+        
+    }
+    .container div{
+        background-color: gold;
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="container">
+        <div>
+            <nav>
+                <ul>
+                    <li> <a href = "class1.html">Home</a></li>
+                    <li> <a href = "About">About</a></li>
+                    <li> <a href = "Contact">Contact</a></li>
+                    <li> <a href = "More">More</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div> <img src = "water.jpg" height="75px" width="100px" alt="">Coloum 1</div>
+        <div> <img src = "water.jpg" height="75px" width="100px" alt="">Coloum 2</div>
+        <div> <img src = "water.jpg" height="75px" width="100px" alt="">Coloum 3</div>
+        <div> <img src = "water.jpg" height="75px" width="100px" alt="">Coloum 4</div>
+        <div> <img src = "water.jpg" height="75px" width="100px" alt="">Coloum 5</div>
+        <div> <img src = "water.jpg" height="75px" width="100px" alt="">Coloum 6</div>
+        <div> <img src = "water.jpg" height="75px" width="100px" alt="">Coloum 7</div>
+        <div> <img src = "water.jpg" height="75px" width="100px" alt="">Coloum 8</div>
+        <div> <img src = "water.jpg" height="75px" width="100px" alt="">Coloum 9</div>
+        <div> <img src = "water.jpg" height="75px" width="100px" alt="">Coloum 10</div>
+        <div> <img src = "water.jpg" height="75px" width="100px" alt="">Coloum 11</div>
+        <div> <img src = "water.jpg" height="75px" width="100px" alt="">Coloum 12</div>
+
+    </div>
+</body>
+</html>
